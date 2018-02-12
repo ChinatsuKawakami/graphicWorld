@@ -2,5 +2,35 @@
  * Author: Chinatsu Kawakami
  * Created date: 2018-Feb-11
  * Description: This is html file to show graphic with view in the world
-   Version: 0.0.1 initial commit
+   Version: 0.0.2 add function to show clock in html 
 -->
+
+<!DOCTYPE>
+<html lang="en">
+<head>
+<meta charset='utf-8'>
+<link rel="stylesheet" type="text/css" href="color.css">
+ <script src="C:/Users/chinatsu/Desktop/angular.min.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ </head>
+<title>Hello World!</title>
+</head>
+<body>
+<div class="container">
+
+<div id="views"></div>
+
+<div id="buttons">
+<button type="button" id="japanBtn">Japan</button>
+<button type="button" id="usaBtn">USA</button>
+<button type="button" id="baliBtn">Bali</button>
+</div>
+
+<canvas id="canvas" width="400" height="400"
+style="background-color:#333">
+</canvas>
+</div>
+<script src="graphic.js" type="text/javascript"></script>
+</body>
+</html>
